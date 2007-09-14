@@ -3,10 +3,10 @@ from setuptools import setup, find_packages
 name = "plone.recipe.command"
 setup(
     name = name,
-    version = "1.1.1",
-    author = "Daniel Chapelle",
-    author_email = "daniel@bubblenet.be",
-    description = "Execute arbitrary commands through os.system",
+    version = "1.0",
+    author = "Daniel Nouri",
+    author_email = "daniel.nouri@gmail.com",
+    description = "Execute arbitrary commands in buildout through os.system",
     license = "GPL",
     keywords = "buildout",
     url='http://www.python.org/pypi/'+name,
