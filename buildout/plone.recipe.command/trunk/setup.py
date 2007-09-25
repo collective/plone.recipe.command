@@ -9,6 +9,9 @@ setup(
     description = "Execute arbitrary commands through os.system",
     license = "GPL",
     keywords = "buildout",
+    classifiers = [
+        "Framework :: Buildout",
+    ],
     url='http://www.python.org/pypi/'+name,
 
     packages=find_packages(exclude=['ez_setup']),
