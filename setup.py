@@ -6,7 +6,7 @@ setup(
     version = "1.1.1",
     author = "Daniel Chapelle",
     author_email = "daniel@bubblenet.be",
-    description = "Execute arbitrary commands through os.system",
+    description = "Run arbitrary commands from buildout",
     license = "GPL",
     keywords = "buildout",
     classifiers = [
