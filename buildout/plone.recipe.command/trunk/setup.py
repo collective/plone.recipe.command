@@ -7,6 +7,7 @@ setup(
     author = "Daniel Chapelle",
     author_email = "daniel@bubblenet.be",
     description = "Run arbitrary commands from buildout",
+    long_description = open("README.txt").read(),
     license = "GPL",
     keywords = "buildout",
     classifiers = [
