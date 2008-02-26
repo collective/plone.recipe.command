@@ -16,7 +16,7 @@ setup(
     url='http://www.python.org/pypi/'+name,
 
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['plone.recipe'],
+    namespace_packages=['plone', 'plone.recipe'],
     include_package_data=True,
     zip_safe=False,
     install_requires = ['zc.buildout', 'setuptools'],
