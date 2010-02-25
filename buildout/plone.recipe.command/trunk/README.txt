@@ -45,7 +45,7 @@ stop-on-error
 Changes
 =======
 
-1.1 - Unreleased
+1.1 - 2010-02-25
 ----------------
 
 * Added ``stop-on-error`` option to stop buildout on non zero return code of
