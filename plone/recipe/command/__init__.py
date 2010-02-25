@@ -1,5 +1,5 @@
+from subprocess import call
 import logging
-import os
 import zc.buildout
 
 class Recipe:
@@ -15,7 +15,7 @@ class Recipe:
             raise zc.buildout.UserError(msg)
 
         self.logger.info("Running '%s'" % command)
-        os.system(command)
+        call(command, shell=True)
         location = self.options.get('location')
         if location is not None:
             return location.split()
@@ -26,4 +26,4 @@ class Recipe:
         command = self.options.get('update-command')
         if command is not None:
             self.logger.info("Running %s" % command)
-            os.system(command)
+            call(command, shell=True)
