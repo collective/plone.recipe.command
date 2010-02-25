@@ -37,3 +37,14 @@ location
   by this buildout part. These will be removed when buildout (re)installs
   or removes this part.
 
+Changes
+=======
+
+1.1 - Unreleased
+----------------
+
+
+1.0 - 2007-09-14
+----------------
+
+* Initial release.
