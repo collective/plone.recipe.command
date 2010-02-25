@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 name = "plone.recipe.command"
 setup(
     name = name,
-    version = "1.1.1",
-    author = "Daniel Chapelle",
-    author_email = "daniel@bubblenet.be",
+    version = "1.0",
+    author = "Daniel Nouri",
+    author_email = "daniel.nouri@gmail.com",
     description = "Run arbitrary commands from buildout",
     long_description = open("README.txt").read(),
     license = "GPL",
