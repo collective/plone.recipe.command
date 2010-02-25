@@ -43,6 +43,9 @@ Changes
 1.1 - Unreleased
 ----------------
 
+* Use subprocess instead of os.system.
+  [fschulze]
+
 
 1.0 - 2007-09-14
 ----------------
