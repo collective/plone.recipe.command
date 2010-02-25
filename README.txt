@@ -37,11 +37,20 @@ location
   by this buildout part. These will be removed when buildout (re)installs
   or removes this part.
 
+stop-on-error
+  When ``yes``, ``on`` or ``true``, buildout will stop if the command ends
+  with a non zero exit code.
+
+
 Changes
 =======
 
 1.1 - Unreleased
 ----------------
+
+* Added ``stop-on-error`` option to stop buildout on non zero return code of
+  the command.
+  [fschulze]
 
 * Use subprocess instead of os.system.
   [fschulze]
