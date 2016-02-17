@@ -48,6 +48,8 @@ Changes
 1.2 - Unreleased
 ----------------
 
+* Added a test
+  [regebro]
 
 
 1.1 - 2010-02-25

@@ -22,4 +22,5 @@ setup(
     install_requires = ['zc.buildout', 'setuptools'],
     entry_points = {'zc.buildout':
                     ['default = %s:Recipe' % name]},
+    test_suite = 'plone.recipe.command',
     )
