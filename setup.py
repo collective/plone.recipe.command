@@ -12,9 +12,11 @@ setup(
     keywords = "buildout",
     classifiers = [
         "Framework :: Buildout",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3.4",
     ],
-    url='http://www.python.org/pypi/'+name,
-
+    url='http://www.python.org/pypi/' + name,
     packages=find_packages(exclude=['ez_setup']),
     namespace_packages=['plone', 'plone.recipe'],
     include_package_data=True,
