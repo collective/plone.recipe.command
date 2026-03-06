@@ -1,5 +1,6 @@
-from subprocess import call
 import logging
+from subprocess import call
+
 import zc.buildout
 
 

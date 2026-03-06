@@ -1,7 +1,7 @@
-import unittest
 import io
 import sys
 import tempfile
+import unittest
 
 from plone.recipe.command import Recipe
 
