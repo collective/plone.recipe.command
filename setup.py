@@ -13,6 +13,7 @@ setup(
     classifiers = [
         "Framework :: Buildout",
         "Programming Language :: Python",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3.4",
     ],
