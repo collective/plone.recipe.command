@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "plone.recipe.command",
-    version = "1.2",
+    version="2.0",
     author = "Daniel Nouri",
     author_email = "daniel.nouri@gmail.com",
     description = "Run arbitrary commands from buildout",
