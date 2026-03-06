@@ -45,8 +45,11 @@ stop-on-error
 Changes
 =======
 
-1.2 - Unreleased
+2.0 (unreleased)
 ----------------
+
+* Require at least Python 3.10.
+  [maurits]
 
 * Move to src-layout.
   [maurits]
