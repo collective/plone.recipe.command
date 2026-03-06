@@ -1,8 +1,7 @@
 from setuptools import setup, find_packages
 
-name = "plone.recipe.command"
 setup(
-    name = name,
+    name = "plone.recipe.command",
     version = "1.2",
     author = "Daniel Nouri",
     author_email = "daniel.nouri@gmail.com",
@@ -11,20 +10,26 @@ setup(
     license = "GPL",
     keywords = "buildout",
     classifiers = [
+        "Development Status :: 5 - Production/Stable",
         "Framework :: Buildout",
         "Programming Language :: Python",
         "License :: OSI Approved :: GNU General Public License (GPL)",
-        "Programming Language :: Python :: 2.7",
-        "Programming Language :: Python :: 3.4",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14",
     ],
-    url='http://www.python.org/pypi/' + name,
+    url='https://github.com/collective/plone.recipe.command',
     packages=find_packages("src"),
     package_dir={"": "src"},
     namespace_packages=['plone', 'plone.recipe'],
     include_package_data=True,
     zip_safe=False,
+    python_requires=">=3.10",
     install_requires = ['zc.buildout', 'setuptools'],
     entry_points = {'zc.buildout':
-                    ['default = %s:Recipe' % name]},
+                    ['default = plone.recipe.command:Recipe']},
     test_suite = 'plone.recipe.command',
     )
