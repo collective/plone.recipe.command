@@ -48,6 +48,9 @@ Changes
 1.2 - Unreleased
 ----------------
 
+* Move to src-layout.
+  [maurits]
+
 * Added a test
   [regebro]
 
